@@ -1,0 +1,67 @@
+  body { /* Рубленый шрифт текста */
+    margin: 0;
+
+     /* Отступы на странице */
+   }
+   h1 {
+    font:42px Impact, fantasy ; /* Размер шрифта */
+    color: black; /* Цвет текста */
+     text-align:  center;
+
+    margin-top: 1%;
+   }
+   h2 {
+    text-align:  center;
+    font: 30px  Impact, fantasy; 
+    font-weight: 800;/* Убираем отступ сверху */
+   }
+   a{
+    text-decoration: none;
+    color: black;
+   }
+   #logo{
+    float:left;
+    width: 110px;
+    margin-left:  10px;
+
+   }
+   #leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin:  10px; /* Отступы вокруг картинки */
+    height: 400px;
+   }
+   #text{
+    text-align: justify;
+    margin-top: 25px;
+    margin-right:  40px;
+    margin-left:  10px;
+    font: 14px  Verdana, sans-serif;
+   }
+   #header { /* Верхний блок */
+    background: white; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    box-shadow:0 0 5px rgba(0,0,0,0.5);
+    height: 74px;
+   }
+  
+   #sidebar { /* Левая колонка */
+    float: left; /* Обтекание справа */
+  font:20px Impact, fantasy ;
+    width: 20%; /* Ширина колонки */
+    padding: 5px; /* Поля вокруг текста */
+    margin: 10px 20px 20px 30px; /* Значения отступов */
+   }
+   #content { /* Правая колонка */
+    margin: 10px 5px 20px 25%; /* Значения отступов */
+     /* Поля вокруг текста */
+
+   }
+   #footer { /* Нижний блок */
+    background: #333; /* Цвет фона */
+    padding: 5px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+    clear: left; /* Отменяем действие float */
+    position: absolute;
+    bottom: 0;
+    width: 99.3%;
+   }
